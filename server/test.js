@@ -3,8 +3,8 @@ const app = express()
 
 app.use(express.static("client"))
 
-app.get('/', function (req, res) {
+app.get('/test', function (req, res) {
   res.send('Hello World')
 })
 
-app.listen(8000)
+app.listen(3000)
