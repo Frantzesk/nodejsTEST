@@ -5,6 +5,6 @@ const text=await response.text()
 
 const output=document.querySelector("#output")
 
-output.textContent=text
+output.innerHTML=text
 
 console.log(text)
